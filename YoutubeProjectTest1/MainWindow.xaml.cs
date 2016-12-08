@@ -288,7 +288,7 @@ namespace YoutubeProjectTest1
             {
                 var youtubeService = new YouTubeService(new BaseClientService.Initializer()
                 {
-                    ApiKey = "AIzaSyCNXbQfrNeR76wHahW0JoTnIb4i4Xq-dzs",
+                    ApiKey = "YOUR_API_KEY",
                     ApplicationName = this.GetType().ToString()
                 });
 
@@ -302,7 +302,7 @@ namespace YoutubeProjectTest1
             {
                 var youtubeService = new YouTubeService(new BaseClientService.Initializer()
                 {
-                    ApiKey = "AIzaSyCNXbQfrNeR76wHahW0JoTnIb4i4Xq-dzs",
+                    ApiKey = "YOUR_API_KEY",
                     ApplicationName = this.GetType().ToString()
                 });
 
@@ -322,7 +322,7 @@ namespace YoutubeProjectTest1
 
                 var youtubeService = new YouTubeService(new BaseClientService.Initializer()
                 {
-                    ApiKey = "AIzaSyCNXbQfrNeR76wHahW0JoTnIb4i4Xq-dzs",
+                    ApiKey = "YOUR_API_KEY",
                     ApplicationName = this.GetType().ToString()
                 });
 
@@ -351,7 +351,7 @@ namespace YoutubeProjectTest1
             {
                 var youtubeService = new YouTubeService(new BaseClientService.Initializer()
                 {
-                    ApiKey = "AIzaSyCNXbQfrNeR76wHahW0JoTnIb4i4Xq-dzs",
+                    ApiKey = "YOUR_API_KEY",
                     ApplicationName = this.GetType().ToString()
                 });
                 var channelListRequest = youtubeService.Channels.List("snippet");
@@ -371,7 +371,7 @@ namespace YoutubeProjectTest1
             {
                 var youtubeService = new YouTubeService(new BaseClientService.Initializer()
                 {
-                    ApiKey = "AIzaSyCNXbQfrNeR76wHahW0JoTnIb4i4Xq-dzs",
+                    ApiKey = "YOUR_API_KEY",
                     ApplicationName = this.GetType().ToString()
                 });
                 var channelListRequest = youtubeService.Channels.List("statistics");
@@ -455,7 +455,7 @@ namespace YoutubeProjectTest1
         {
             var youtubeService = new YouTubeService(new BaseClientService.Initializer()
             {
-                ApiKey = "AIzaSyCNXbQfrNeR76wHahW0JoTnIb4i4Xq-dzs",
+                ApiKey = "YOUR_API_KEY",
                 ApplicationName = this.GetType().ToString()
             });
 
